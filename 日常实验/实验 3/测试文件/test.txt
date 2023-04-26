@@ -1,0 +1,11 @@
+{A sample TINY_TEST program}
+read x;
+if 10<x then
+fact:=3;	
+repeat	
+	fact:=fact*x;	
+	x:=x-2
+until x<0;
+write fact
+end
+
